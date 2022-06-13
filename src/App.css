@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+:root {
+  --yellow: #ebaa00;
+  --gray: #242424;
+  --white: #ffffff; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--gray);
+  font-family: barlow, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-header {
+  min-height: 18vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-header nav {
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.icons-header a {
+  color: var(--white) !important;
+  font-weight: 700;
+  font-size: 20px;
+  margin: auto 15px;
+}
+
+.icons-header a:hover {
+  border-bottom: 5px solid var(--yellow);
+}
+
+#header-icon {
+  color: var(--yellow) !important;
+  font-size: 30px;
+}
+
+.profile-box img {
+  width: 35%;
+  border-radius: 5%;
+}
+
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: lightgray;
+}
+
+.profile-box .protile-text {
+  width: 65%;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.tools-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.tools-box i {
+  font-size: 30px;
+  color: lightgray;
+  border-radius: 10%;
+  margin: auto 15px;
+}
+
+.projects-box {
+  color: lightgray;
+}
+
+.my-project {
+  width: 30%;
+  text-align: center;
+  background-color: lightgray;
+  color: var(--gray);
+  border-radius: 3%;
+  padding: 15px;
+}
+
+.projects-box .projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.my-project h4 {
+  margin-bottom: 15px;
+}
+
+
+.my-project img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.section-title {
+  color:#ebaa00 ;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.my-footer {
+  margin-top: 15vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  color: lightgray;
+}
+
+.my-footer ul {
+  display: flex;
+  list-style: none;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.my-footer ul li {
+  margin: auto 10px;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-footer ul li a {
+  color: lightgray;
 }
