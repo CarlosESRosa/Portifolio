@@ -84,19 +84,11 @@ body {
 }
 
 .my-project {
-  width: 30%;
   text-align: center;
   background-color: lightgray;
   color: var(--gray);
   border-radius: 3%;
   padding: 15px;
-}
-
-.projects-box .projects {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 .my-project h4 {
