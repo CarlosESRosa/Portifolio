@@ -42,21 +42,13 @@ body {
 }
 
 .profile-box img {
-  width: 35%;
+  max-width: 400px;
   border-radius: 5%;
 }
 
 .profile-box {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   color: lightgray;
-}
-
-.profile-box .protile-text {
-  width: 65%;
-  padding: 20px;
-  margin-left: 50px;
+  text-align: center;
 }
 
 .tools-box {
