@@ -10,9 +10,18 @@ body {
   background-color: var(--gray);
   font-family: barlow, sans-serif;
 }
+/* GERAL */
+.section-title {
+  color:#ebaa00 ;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  font-size: 25px;
+  font-weight: bold;
+}
 
-.my-header {
-  min-height: 18vh;
+/* HEADER */
+.my-header{
+  min-height: 14vh;
 }
 
 .my-header nav {
@@ -40,7 +49,9 @@ body {
   color: var(--yellow) !important;
   font-size: 30px;
 }
+/* /HEADER */
 
+/* PROFILE */
 .profile-box img {
   max-width: 400px;
   border-radius: 5%;
@@ -49,6 +60,14 @@ body {
 .profile-box {
   color: lightgray;
   text-align: center;
+}
+
+.protile-text {
+  margin-top: 3vh;
+}
+
+.protile-text p  {
+  text-align: justify;
 }
 
 .tools-box {
@@ -70,7 +89,9 @@ body {
   border-radius: 10%;
   margin: auto 15px;
 }
+/* /PROFILE */
 
+/* PROJECTS*/
 .projects-box {
   color: lightgray;
 }
@@ -92,15 +113,10 @@ body {
   width: 100%;
   border-radius: 3%;
 }
+/* PROJECTS*/
 
-.section-title {
-  color:#ebaa00 ;
-  margin-top: 15vh;
-  margin-bottom: 5vh;
-  font-size: 25px;
-  font-weight: bold;
-}
 
+/* FOOTER */
 .my-footer {
   margin-top: 15vh;
   margin-bottom: 2vh;
@@ -123,3 +139,4 @@ body {
 .my-footer ul li a {
   color: lightgray;
 }
+/* /FOOTER */

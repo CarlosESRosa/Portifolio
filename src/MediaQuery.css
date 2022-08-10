@@ -13,12 +13,20 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+  .protile-text {
+    margin-top: 5vh;
+  }
+  .section-title {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+  .my-header {
+    min-height: 18vh;
+  } 
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
