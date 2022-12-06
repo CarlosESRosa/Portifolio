@@ -13,7 +13,7 @@ export default class Profile extends Component {
             <div className='protile-text'>
               <h1>Carlos Eduardo Soares Rosa</h1>
               <h3>Full Stack Developer</h3>
-              <p>During my childhood and adolescence I was surrounded by technology and I found myself in the IT area. I was studying at the Federal University of Itajubá (UNIFEI), however, I chose to join Trybe, believing it to be the best option looking to become a Full Stack Developer in the future. I completed my studies at trybe, where I learned HTML, CSS, Javascript and Typescript, in the Frontend I developed a series of projects using mainly React and in the Backend I learned how to use Docker for environments, I developed a series of Restful APIs using Node and Python with Relational or non-relational databases.</p>
+              <p>During my childhood and adolescence I was surrounded by technology and I found myself in the IT area. I was studying at the Federal University of Itajubá (UNIFEI), however, I chose to join Trybe believing it to be the best option looking to become a Full Stack Developer in the future. I completed my studies at trybe, where I learned HTML, CSS, Javascript and Typescript, in the Frontend I developed a series of projects using mainly React and in the Backend I learned how to use Docker for environments, I developed a series of Restful APIs using Node and Python with Relational or non-relational databases.</p>
               <h4>Stacks</h4>
               <div className='tools-box'>
                 <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
