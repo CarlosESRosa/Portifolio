@@ -6,7 +6,7 @@ export default class Header extends Component {
       <div className='my-header container'>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div>
-            <a class="navbar-brand" href="#" id='header-icon'>Portifólio</a>
+            <a class="navbar-brand" href="#" id='header-icon'>Resume</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>

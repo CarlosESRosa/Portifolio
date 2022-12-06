@@ -1,1 +1,1 @@
-## Portifólio pessoal: https://rosa-portifolio-1234.herokuapp.com/
+## Resume: https://portifolio-rosa.vercel.app/
