@@ -102,7 +102,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 88%;
 }
 
 .container-projects {
@@ -113,17 +112,17 @@ body {
 
 .container-projects .my-project {
   text-align: center;
-  background-color: lightgray;
+  background-color: rgba(255, 255, 255, 0.85);
   width: 330px;
-  height: 250px;
   color: var(--gray);
   border-radius: 3%;
   margin: 20px;
   cursor: pointer;
 }
 
-.container-projects .my-project img {
-  width: 300px;
+.project-img {
+  width: 300px !important;
+  height: 180px !important;
 }
 
 .projects-box {
@@ -137,6 +136,20 @@ body {
 .my-project img {
   width: 100%;
   border-radius: 3%;
+}
+
+.project-stacks {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-stacks img {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 7px;
+  margin-bottom: 20px;
 }
 /* PROJECTS*/
 
