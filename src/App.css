@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
 
 :root {
   --yellow: #ebaa00;
   --gray: #242424;
-  --white: #ffffff; 
+  --white: #ffffff;
 }
 
 body {
@@ -11,8 +11,12 @@ body {
   font-family: barlow, sans-serif;
 }
 /* GERAL */
+* {
+  padding: 0;
+  margin: 0;
+}
 .section-title {
-  color:#ebaa00 ;
+  color: #ebaa00;
   margin-top: 10vh;
   margin-bottom: 5vh;
   font-size: 25px;
@@ -20,7 +24,7 @@ body {
 }
 
 /* HEADER */
-.my-header{
+.my-header {
   min-height: 14vh;
 }
 
@@ -66,7 +70,7 @@ body {
   margin-top: 3vh;
 }
 
-.protile-text p  {
+.protile-text p {
   text-align: justify;
 }
 
@@ -92,29 +96,49 @@ body {
 /* /PROFILE */
 
 /* PROJECTS*/
-.projects-box {
-  color: lightgray;
+.display-helper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 88%;
 }
 
-.my-project {
+.container-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-projects .my-project {
   text-align: center;
   background-color: lightgray;
+  width: 330px;
+  height: 250px;
   color: var(--gray);
   border-radius: 3%;
-  padding: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.container-projects .my-project img {
+  width: 300px;
+}
+
+.projects-box {
+  color: lightgray;
 }
 
 .my-project h4 {
   margin-bottom: 15px;
 }
 
-
 .my-project img {
   width: 100%;
   border-radius: 3%;
 }
 /* PROJECTS*/
-
 
 /* FOOTER */
 .my-footer {
