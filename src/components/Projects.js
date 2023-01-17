@@ -121,30 +121,32 @@ export default class Projects extends Component {
               </div>
 
               <div className="my-project">
-                <h4>Blogs Api</h4>
+                <h4>Teste Seazone</h4>
                 <a
-                  href="https://github.com/CarlosESRosa/Blogs-api"
+                  href="https://github.com/CarlosESRosa/Teste-seazone"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
                   <img
                     src={blogsApi}
-                    alt="Blogs api project"
+                    alt="Teste Seazone project"
                     className="project-img"
                   />
                   <div className="project-stacks">
                     <img
                       align="center"
-                      alt="React"
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt="Python"
+                      height="30"
+                      width="40"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                     />
                     <img
                       align="center"
-                      alt="Javascript"
+                      alt="Django"
                       height="30"
                       width="40"
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
                     />
                   </div>
                 </a>
