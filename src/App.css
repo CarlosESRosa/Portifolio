@@ -24,34 +24,24 @@ body {
 }
 
 /* HEADER */
-.my-header {
+.header {
   min-height: 14vh;
 }
 
-.my-header nav {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-#navbarNav {
-  justify-content: flex-end;
-}
-
-.icons-header a {
-  color: var(--white) !important;
+.header ul li a {
+  color: white !important;
   font-weight: 700;
-  font-size: 20px;
-  margin: auto 15px;
 }
 
-.icons-header a:hover {
-  border-bottom: 5px solid var(--yellow);
+.header .navbar button {
+  background-color: white;
+  color: black;
 }
 
 #header-icon {
   color: var(--yellow) !important;
   font-size: 30px;
+  font-weight: bold;
 }
 /* /HEADER */
 
