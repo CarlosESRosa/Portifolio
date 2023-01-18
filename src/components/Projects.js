@@ -167,8 +167,8 @@ export default class Projects extends Component {
                   <div className="project-stacks">
                     <img
                       align="center"
-                      alt="React"
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt="Node"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                     />
                     <img
                       align="center"
@@ -181,23 +181,23 @@ export default class Projects extends Component {
                 </a>
               </div>
               <div className="my-project">
-                <h4>Blogs Api</h4>
+                <h4>Store Manager</h4>
                 <a
-                  href="https://github.com/CarlosESRosa/Blogs-api"
+                  href="https://github.com/CarlosESRosa/Store-manager"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
                   <img
                     src={blogsApi}
-                    alt="Blogs api project"
+                    alt="Store manager project"
                     className="project-img"
                   />
                   <div className="project-stacks">
                     <img
                       align="center"
-                      alt="React"
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt="Node"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                     />
                     <img
                       align="center"
