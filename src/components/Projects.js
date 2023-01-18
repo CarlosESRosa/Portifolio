@@ -121,16 +121,16 @@ export default class Projects extends Component {
               </div>
 
               <div className="my-project">
-                <h4>Teste Seazone</h4>
+                <h4>API Alugueis</h4>
                 <a
-                  href="https://github.com/CarlosESRosa/Teste-seazone"
+                  href="https://github.com/CarlosESRosa/API-Alugueis"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
                   <img
                     src={blogsApi}
-                    alt="Teste Seazone project"
+                    alt="API Alugueis project"
                     className="project-img"
                   />
                   <div className="project-stacks">
