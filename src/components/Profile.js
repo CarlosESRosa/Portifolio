@@ -14,16 +14,14 @@ export default class Profile extends Component {
               <h1>Carlos Eduardo Soares Rosa</h1>
               <h3>Full Stack Developer</h3>
               <p>
-                During my childhood and adolescence I was surrounded by
-                technology and I found myself in the IT area. I was studying at
-                the Federal University of Itajubá (UNIFEI), however, I chose to
-                join Trybe believing it to be the best option looking to become
-                a Full Stack Developer in the future. I completed my studies at
-                trybe, where I learned HTML, CSS, Javascript and Typescript, in
-                the Frontend I developed a series of projects using mainly React
-                and in the Backend I learned how to use Docker for environments,
-                I developed a series of Restful APIs using Node and Python with
-                Relational or non-relational databases.
+                Hello, I'm Carlos, a developer since 2020, with a
+                background in Web Development from Trybe and currently pursuing
+                a degree in Analysis and Systems Development at FIAP. My
+                experience covers Frontend technologies like React, Angular, and
+                testing, as well as Backend expertise in Node, Python, and
+                databases. My portfolio showcases diverse projects,
+                demonstrating my versatility and dedication. I'm ready to
+                contribute innovative solutions to your next project.
               </p>
               <h4>Stacks</h4>
               <div className="tools-box">
